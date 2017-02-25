@@ -1,1 +1,1 @@
-# react-workshop
+# React Workshop
