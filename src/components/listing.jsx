@@ -1,9 +1,10 @@
 import React, {Component} from 'react';
+import _ from 'lodash';
 
 export default class Listing extends Component {
 
-    constructor() {
-        super();
+    constructor(props) {
+        super(props);
         this.state = {
             someValue: 'someValue'
         };
@@ -15,11 +16,13 @@ export default class Listing extends Component {
     }
 
     render()
-    {
-        return (
-            <div>
-                <h3>{this.state.someValue}</h3>
-            </div>
-        )
-    }
+        {
+            return (
+                <ul>
+                    {_.map(this.props.list, function(item, index){
+                        return <li key={index}>{item}</li>
+                    })}
+                </ul>
+            )
+        }
 }
