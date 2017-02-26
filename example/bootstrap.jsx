@@ -7,6 +7,8 @@ import Somepage from '../src/components/somepage';
 
 ReactDOM.render(
     <Router history={hashHistory}>
-    <Route path="/" component={Application}></Route>
-    <Route path="/somepage/:page" component={Somepage}></Route>
+    <Route path="/" component={Application}>
+        <Route path="/somepage/:page" component={Somepage}></Route>
+    </Route>
+    
 </Router>, document.getElementById('react-application'));
