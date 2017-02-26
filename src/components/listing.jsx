@@ -3,18 +3,6 @@ import _ from 'lodash';
 
 export default class Listing extends Component {
 
-    constructor(props) {
-        super(props);
-        this.state = {
-            someValue: 'someValue'
-        };
-    }
-
-    componentDidMount() {
-        this.setState({someValue: 'otherValue'});
-        this.state.someValue = "anotherValue";
-    }
-
     render()
         {
             return (
