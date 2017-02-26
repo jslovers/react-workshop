@@ -4,8 +4,8 @@ import Listing from './listing';
 
 export default class Application extends Component {
 
-    clickHandler = () => {
-        alert("Item Clicked");
+    clickHandler = (item) => {
+        alert(item);
     }
 
     render()
