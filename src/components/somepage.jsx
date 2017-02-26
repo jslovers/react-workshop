@@ -1,10 +1,7 @@
 import React from 'react';
-
 const Somepage = (props) => {
-
     return (
-        <div>{props.params.pagename}</div>
+        <div>Some diffrent page.</div>
     )
 }
-
 export default Somepage;
