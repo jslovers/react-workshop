@@ -6,16 +6,11 @@ const Listing = (props) => {
     return (
         <ul>{_
                 .map(props.list, function (item, index) {
-                    return <li
-                        onClick={() => {
-                        props.clickHandler(item)
-                    }}
-                        key={index}>
-                        {item}
+                    return <li key={index}>
+                        <Link to={'somepage/' + item}>{item}</Link>
                     </li>
                 })
 }</ul>
     );
 }
-
 export default Listing;

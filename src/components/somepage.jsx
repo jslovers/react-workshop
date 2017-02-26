@@ -1,7 +1,7 @@
 import React from 'react';
 const Somepage = (props) => {
     return (
-        <div>Some diffrent page.</div>
+        <div>{props.params.page}</div>
     )
 }
 export default Somepage;
