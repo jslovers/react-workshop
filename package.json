@@ -1,0 +1,49 @@
+{
+  "name": "react-workshop",
+  "version": "1.0.0",
+  "description": "React Workshop",
+  "main": "config/server.js",
+  "dependencies": {},
+  "devDependencies": {
+      "babel-core": "^6.22.1",
+      "babel-eslint": "^7.1.1",
+      "babel-loader": "^6.2.10",
+      "babel-plugin-react-transform": "^2.0.2",
+      "babel-plugin-transform-flow-strip-types": "^6.22.0",
+      "babel-preset-es2015": "^6.22.0",
+      "babel-preset-react": "^6.22.0",
+      "babel-preset-stage-0": "^6.22.0",
+      "express": "^4.14.1",
+      "guid": "0.0.12",
+      "lodash": "^4.17.4",
+      "react": "^15.4.2",
+      "react-addons-test-utils": "^15.4.2",
+      "react-dom": "^15.4.2",
+      "rimraf": "^2.5.4",
+      "webpack": "^1.14.0",
+      "webpack-dev-middleware": "^1.9.0",
+      "webpack-hot-middleware": "^2.16.1",
+      "webpack-livereload-plugin": "^0.10.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node config/server.js"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jslovers/react-workshop.git"
+  },
+  "keywords": [
+    "React",
+    "Workshop",
+    "Meetup",
+    "Javascript"
+  ],
+  "author": "Jaswant Singh Sandhu <jaswant@jslovers.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jslovers/react-workshop/issues"
+  },
+  "homepage": "https://github.com/jslovers/react-workshop#readme"
+}
